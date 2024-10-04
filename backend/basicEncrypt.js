@@ -1,6 +1,6 @@
 // hashPassword.js
 
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
 // Replace 'YourPasswordHere' with the password you want to hash
 const password = 'Passingw0rds';
