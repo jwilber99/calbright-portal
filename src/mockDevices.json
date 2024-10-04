@@ -1,0 +1,453 @@
+[
+    {
+      "id": 1,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-01-15",
+      "dateReturned": null,
+      "role": "admin",
+      "serialNumber": "eaf2d9a5-1ed3-4f96-a4e5-0c94ed64c920"
+    },
+    {
+      "id": 2,
+      "deviceType": "Windows Laptop",
+      "status": "Returned",
+      "dateIssued": "2022-11-10",
+      "dateReturned": "2023-05-30",
+      "role": "user",
+      "serialNumber": "9db1be82-35a5-4e5c-a370-eef7c8f66ad4"
+    },
+    {
+      "id": 3,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-03-20",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "2645ae83-bb95-49fb-9536-ff10d095bf7d"
+    },
+    {
+      "id": 4,
+      "deviceType": "Windows Laptop",
+      "status": "Returned",
+      "dateIssued": "2022-09-05",
+      "dateReturned": "2023-02-15",
+      "role": "admin",
+      "serialNumber": "cfdd914b-e44a-409b-8a38-42045fa48cc9"
+    },
+    {
+      "id": 5,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-04-12",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "39ae5e10-dc1e-4b83-a5a1-5e38d8c653d5"
+    },
+    {
+      "id": 6,
+      "deviceType": "Windows Laptop",
+      "status": "Returned",
+      "dateIssued": "2022-12-01",
+      "dateReturned": "2023-07-20",
+      "role": "user",
+      "serialNumber": "ff30eeb3-3f27-4dfb-8a5e-299bc48c486e"
+    },
+    {
+      "id": 7,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-05-18",
+      "dateReturned": null,
+      "role": "admin",
+      "serialNumber": "83b7f42b-d5fc-4978-9df3-86a2d61fcaf4"
+    },
+    {
+      "id": 8,
+      "deviceType": "Windows Laptop",
+      "status": "Returned",
+      "dateIssued": "2023-02-10",
+      "dateReturned": "2023-06-05",
+      "role": "admin",
+      "serialNumber": "08b8fa57-c9bb-4c81-83a2-d8d0e34b7dcf"
+    },
+    {
+      "id": 9,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-06-01",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "4a3ed3ae-3325-4c82-9730-6fba3303820d"
+    },
+    {
+      "id": 10,
+      "deviceType": "Windows Laptop",
+      "status": "Returned",
+      "dateIssued": "2022-10-20",
+      "dateReturned": "2023-04-10",
+      "role": "user",
+      "serialNumber": "6d8f9b3f-3666-4b3f-a124-00e2b69c2ae2"
+    },
+    {
+      "id": 11,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-07-15",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "a1e1b2c3-45d6-789e-0123-456789abcdef"
+    },
+    {
+      "id": 12,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-07-20",
+      "dateReturned": null,
+      "role": "admin",
+      "serialNumber": "b2f3c4d5-67e8-9012-3456-789abcdef012"
+    },
+    {
+      "id": 13,
+      "deviceType": "Mac Laptop",
+      "status": "Returned",
+      "dateIssued": "2023-05-05",
+      "dateReturned": "2023-08-10",
+      "role": "user",
+      "serialNumber": "c3d4e5f6-7890-1234-5678-90abcdef1234"
+    },
+    {
+      "id": 14,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-08-01",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "d4e5f6a7-8901-2345-6789-0abcdef12345"
+    },
+    {
+      "id": 15,
+      "deviceType": "Mac Laptop",
+      "status": "Returned",
+      "dateIssued": "2023-06-10",
+      "dateReturned": "2023-09-15",
+      "role": "admin",
+      "serialNumber": "e5f6a7b8-9012-3456-7890-1abcdef23456"
+    },
+    {
+      "id": 16,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-08-15",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "f6a7b8c9-0123-4567-8901-2abcdef34567"
+    },
+    {
+      "id": 17,
+      "deviceType": "Mac Laptop",
+      "status": "Returned",
+      "dateIssued": "2023-07-25",
+      "dateReturned": "2023-10-05",
+      "role": "user",
+      "serialNumber": "a7b8c9d0-1234-5678-9012-3abcdef45678"
+    },
+    {
+      "id": 18,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-09-01",
+      "dateReturned": null,
+      "role": "admin",
+      "serialNumber": "b8c9d0e1-2345-6789-0123-4abcdef56789"
+    },
+    {
+      "id": 19,
+      "deviceType": "Mac Laptop",
+      "status": "Returned",
+      "dateIssued": "2023-08-10",
+      "dateReturned": "2023-11-20",
+      "role": "user",
+      "serialNumber": "c9d0e1f2-3456-7890-1234-5abcdef67890"
+    },
+    {
+      "id": 20,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-09-15",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "d0e1f2a3-4567-8901-2345-6abcdef78901"
+    },
+    {
+      "id": 21,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-10-01",
+      "dateReturned": null,
+      "role": "admin",
+      "serialNumber": "e1f2a3b4-5678-9012-3456-7abcdef89012"
+    },
+    {
+      "id": 22,
+      "deviceType": "Windows Laptop",
+      "status": "Returned",
+      "dateIssued": "2023-09-05",
+      "dateReturned": "2023-12-10",
+      "role": "user",
+      "serialNumber": "f2a3b4c5-6789-0123-4567-8abcdef90123"
+    },
+    {
+      "id": 23,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-10-20",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "a3b4c5d6-7890-1234-5678-9abcdef01234"
+    },
+    {
+      "id": 24,
+      "deviceType": "Windows Laptop",
+      "status": "Returned",
+      "dateIssued": "2023-08-25",
+      "dateReturned": "2023-11-30",
+      "role": "admin",
+      "serialNumber": "b4c5d6e7-8901-2345-6789-0abcdef12345"
+    },
+    {
+      "id": 25,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-11-01",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "c5d6e7f8-9012-3456-7890-1abcdef23456"
+    },
+    {
+      "id": 26,
+      "deviceType": "Windows Laptop",
+      "status": "Returned",
+      "dateIssued": "2023-09-20",
+      "dateReturned": "2023-12-25",
+      "role": "user",
+      "serialNumber": "d6e7f8a9-0123-4567-8901-2abcdef34567"
+    },
+    {
+      "id": 27,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-11-15",
+      "dateReturned": null,
+      "role": "admin",
+      "serialNumber": "e7f8a9b0-1234-5678-9012-3abcdef45678"
+    },
+    {
+      "id": 28,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-12-01",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "f8a9b0c1-2345-6789-0123-4abcdef56789"
+    },
+    {
+      "id": 29,
+      "deviceType": "Mac Laptop",
+      "status": "Returned",
+      "dateIssued": "2023-10-25",
+      "dateReturned": "2024-01-05",
+      "role": "user",
+      "serialNumber": "a9b0c1d2-3456-7890-1234-5abcdef67890"
+    },
+    {
+      "id": 30,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2023-12-15",
+      "dateReturned": null,
+      "role": "admin",
+      "serialNumber": "b0c1d2e3-4567-8901-2345-6abcdef78901"
+    },
+    {
+      "id": 31,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2024-01-01",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "c1d2e3f4-5678-9012-3456-7abcdef89012"
+    },
+    {
+      "id": 32,
+      "deviceType": "Windows Laptop",
+      "status": "Returned",
+      "dateIssued": "2023-11-20",
+      "dateReturned": "2024-02-10",
+      "role": "user",
+      "serialNumber": "d2e3f4a5-6789-0123-4567-8abcdef90123"
+    },
+    {
+      "id": 33,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2024-01-15",
+      "dateReturned": null,
+      "role": "admin",
+      "serialNumber": "e3f4a5b6-7890-1234-5678-9abcdef01234"
+    },
+    {
+      "id": 34,
+      "deviceType": "Windows Laptop",
+      "status": "Returned",
+      "dateIssued": "2023-12-05",
+      "dateReturned": "2024-03-15",
+      "role": "user",
+      "serialNumber": "f4a5b6c7-8901-2345-6789-0abcdef12345"
+    },
+    {
+      "id": 35,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2024-02-01",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "a5b6c7d8-9012-3456-7890-1abcdef23456"
+    },
+    {
+      "id": 36,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2024-02-15",
+      "dateReturned": null,
+      "role": "admin",
+      "serialNumber": "b6c7d8e9-0123-4567-8901-2abcdef34567"
+    },
+    {
+      "id": 37,
+      "deviceType": "Mac Laptop",
+      "status": "Returned",
+      "dateIssued": "2024-01-25",
+      "dateReturned": "2024-04-05",
+      "role": "user",
+      "serialNumber": "c7d8e9f0-1234-5678-9012-3abcdef45678"
+    },
+    {
+      "id": 38,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2024-03-01",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "d8e9f0a1-2345-6789-0123-4abcdef56789"
+    },
+    {
+      "id": 39,
+      "deviceType": "Mac Laptop",
+      "status": "Returned",
+      "dateIssued": "2024-02-10",
+      "dateReturned": "2024-05-20",
+      "role": "admin",
+      "serialNumber": "e9f0a1b2-3456-7890-1234-5abcdef67890"
+    },
+    {
+      "id": 40,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2024-03-15",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "f0a1b2c3-4567-8901-2345-6abcdef78901"
+    },
+    {
+      "id": 41,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2024-04-01",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "a1b2c3d4-5678-9012-3456-7abcdef89012"
+    },
+    {
+      "id": 42,
+      "deviceType": "Windows Laptop",
+      "status": "Returned",
+      "dateIssued": "2024-03-05",
+      "dateReturned": "2024-06-10",
+      "role": "admin",
+      "serialNumber": "b2c3d4e5-6789-0123-4567-8abcdef90123"
+    },
+    {
+      "id": 43,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2024-04-20",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "c3d4e5f6-7890-1234-5678-9abcdef01234"
+    },
+    {
+      "id": 44,
+      "deviceType": "Windows Laptop",
+      "status": "Returned",
+      "dateIssued": "2024-02-25",
+      "dateReturned": "2024-05-30",
+      "role": "user",
+      "serialNumber": "d4e5f6a7-8901-2345-6789-0abcdef12345"
+    },
+    {
+      "id": 45,
+      "deviceType": "Mac Laptop",
+      "status": "Issued",
+      "dateIssued": "2024-05-01",
+      "dateReturned": null,
+      "role": "admin",
+      "serialNumber": "e5f6a7b8-9012-3456-7890-1abcdef23456"
+    },
+    {
+      "id": 46,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2024-05-15",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "f6a7b8c9-0123-4567-8901-2abcdef34567"
+    },
+    {
+      "id": 47,
+      "deviceType": "Mac Laptop",
+      "status": "Returned",
+      "dateIssued": "2024-04-25",
+      "dateReturned": "2024-07-05",
+      "role": "user",
+      "serialNumber": "a7b8c9d0-1234-5678-9012-3abcdef45678"
+    },
+    {
+      "id": 48,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2024-06-01",
+      "dateReturned": null,
+      "role": "admin",
+      "serialNumber": "b8c9d0e1-2345-6789-0123-4abcdef56789"
+    },
+    {
+      "id": 49,
+      "deviceType": "Mac Laptop",
+      "status": "Returned",
+      "dateIssued": "2024-05-10",
+      "dateReturned": "2024-08-15",
+      "role": "user",
+      "serialNumber": "c9d0e1f2-3456-7890-1234-5abcdef67890"
+    },
+    {
+      "id": 50,
+      "deviceType": "Windows Laptop",
+      "status": "Issued",
+      "dateIssued": "2024-06-15",
+      "dateReturned": null,
+      "role": "user",
+      "serialNumber": "d0e1f2a3-4567-8901-2345-6abcdef78901"
+    }
+  ]
+  

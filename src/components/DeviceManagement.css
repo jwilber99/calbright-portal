@@ -1,0 +1,247 @@
+/* DeviceManagement.css */
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+
+/* Device Management Page Styles */
+.device-management-page {
+  background-color: #ffffff; /* White main background */
+  min-height: 100vh;
+  padding-top: 80px; /* Offset for fixed header if needed */
+}
+
+.device-management .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.device-management h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #002855; /* Dark blue for headings */
+}
+
+/* Search and Filter Section */
+.search-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-filter input,
+.search-filter select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-filter button {
+  padding: 10px 20px;
+  background-color: #f0a500;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-filter button:hover {
+  background-color: #d18a00;
+}
+
+/* Device Data Table Styles */
+.device-management table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.device-management table thead {
+  background-color: #f0a500;
+  color: #ffffff;
+}
+
+.device-management table th,
+.device-management table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.device-management table th {
+  cursor: pointer;
+  position: relative;
+}
+
+.device-management table th::after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 5px solid transparent;
+}
+
+.device-management table th.ascending::after {
+  border-bottom-color: #ffffff;
+}
+
+.device-management table th.descending::after {
+  border-top-color: #ffffff;
+}
+
+.device-management table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.device-management table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Pagination Controls */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  background-color: #002855;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #f0a500;
+}
+
+.pagination span {
+  font-size: 1em;
+  color: #002855;
+}
+
+/* Back to Dashboard Button Styles */
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background-color: #002855;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #f0a500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .search-filter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-filter input,
+  .search-filter select,
+  .search-filter button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .device-management table th,
+  .device-management table td {
+    padding: 10px;
+  }
+}
+
+/* DeviceManagement.css */
+
+.delete-button {
+  background-color: #e74c3c; /* Red color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}
+
+/* General Button Styles */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 8px;
+}
+
+/* Add Button */
+.add-button {
+  background-color: #28a745; /* Green background */
+  color: #ffffff; /* White text */
+}
+
+.add-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+/* Edit Button */
+.edit-button {
+  background-color: #ffc107; /* Yellow background */
+  color: #212529; /* Dark text */
+}
+
+.edit-button:hover {
+  background-color: #e0a800; /* Darker yellow on hover */
+}
+
+/* Delete Button */
+.delete-button {
+  background-color: #e74c3c; /* Red color */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.delete-button:hover {
+  background-color: #c0392b;
+}

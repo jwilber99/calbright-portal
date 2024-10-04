@@ -1,0 +1,122 @@
+/* Weather.css */
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+
+/* Weather Page Styles */
+.weather-page {
+  background-color: #ffffff; /* White main background */
+  min-height: 100vh;
+  padding-top: 80px; /* Offset for fixed header if needed */
+}
+
+.weather .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.weather h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #002855; /* Dark blue for headings */
+}
+
+/* Weather Form Styles */
+.weather-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.weather-form input {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.weather-form button {
+  padding: 10px 20px;
+  background-color: #f0a500;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.weather-form button:hover {
+  background-color: #d18a00;
+}
+
+/* Weather Info Styles */
+.weather-info {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.weather-info h3 {
+  margin-bottom: 15px;
+  color: #002855;
+}
+
+.weather-info p {
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+/* Error Message Styles */
+.error-message {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Back to Dashboard Button Styles */
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background-color: #002855;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #f0a500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .weather-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .weather-form input,
+  .weather-form button {
+    width: 100%;
+    max-width: 300px;
+  }
+}

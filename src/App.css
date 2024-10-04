@@ -1,0 +1,19 @@
+/* Light Theme */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  /* Dark Theme */
+  body.dark {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  /* Smooth Transition */
+  body {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Additional component-specific theming as needed */
+  

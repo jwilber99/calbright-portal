@@ -1,0 +1,284 @@
+/* src/components/Dashboard.css */
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+
+/* Header Wrapper Styles */
+.header-wrapper {
+  background-color: #f0f0f0; /* Light gray background for the header wrapper */
+  padding: 5px 0; /* Reduced space at the top and bottom */
+}
+
+/* Header Styles */
+header {
+  background-color: #ffffff; /* White background */
+  color: #333333; /* Dark text */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0; /* No padding on header */
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align items to the left */
+  padding: 0 20px; /* Padding on left and right only */
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Move the logo down further */
+}
+
+header .logo img {
+  height: 50px;
+  margin-right: 40px; /* Space between logo and nav items */
+}
+
+header nav {
+  display: flex; /* Use flexbox for alignment */
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-left: 0; /* Remove margin to move nav closer to logo */
+}
+
+header nav ul li {
+  margin-left: 10px; /* Reduced margin for closer spacing */
+}
+
+header nav ul li a,
+header nav ul li button {
+  color: #333333; /* Dark text */
+  text-decoration: none;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+header nav ul li a:hover,
+header nav ul li button:hover {
+  color: #f0a500; /* Calbright's accent color */
+}
+
+/* New Class for Navigation Links */
+.nav-links li {
+  margin-left: 35px; /* Adjust spacing between nav links */
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image: url('https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80'); /* Tech-related image */
+  background-size: cover;
+  background-position: center;
+  padding: 200px 20px 150px 20px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 80px; /* Offset for fixed header */
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 40, 85, 0.6); /* Overlay to darken the image for better readability */
+}
+
+.hero .hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero .hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero .hero-content p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.hero .cta-button {
+  background-color: #f0a500;
+  color: #ffffff;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.hero .cta-button:hover {
+  background-color: #ffffff;
+  color: #f0a500;
+}
+
+/* Features Section Styles */
+.features {
+  padding: 60px 20px;
+  background-color: #ffffff; /* White main background */
+}
+
+.features .container {
+  max-width: 600px; /* Adjust the container width for better centering */
+  margin: 0 auto;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Adjusted margin */
+  font-size: 2.5em;
+  color: #ffffff; /* White text */
+  background-color: #1A23B3; /* Blue-purple background */
+  padding: 15px 0; /* Padding around the text */
+  border-radius: 25px; /* More rounded corners for an oval effect */
+}
+
+/* Card Layout */
+.features .feature-cards {
+  display: flex;
+  flex-direction: column; /* Stack cards vertically */
+  align-items: center; /* Center align cards */
+}
+
+.features .card {
+  background-color: #ffffff;
+  width: 100%; /* Set width to 100% for vertical stacking */
+  margin-bottom: 20px; /* Space between cards */
+  padding: 50px; /* Increase padding for larger cards */
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.1);
+  font-size: 1.2em; /* Increase font size for better readability */
+}
+
+.features .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.features .card h3 {
+  margin-bottom: 15px;
+  color: #002855;
+}
+
+.features .card p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.features .feature-button {
+  background-color: #002855;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.features .feature-button:hover {
+  background-color: #f0a500;
+  color: #002855;
+}
+
+/* Images Section Styles */
+.images-section {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0; /* Space above and below images */
+}
+
+.images-section img {
+  width: 45%; /* Adjust width for side-by-side display */
+  margin: 0 20px; /* Space between images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow around images */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #000000; /* Black background */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  text-align: center;
+}
+
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .features .card {
+      width: 90%; /* Adjust width for smaller screens */
+  }
+
+  .images-section img {
+      width: 100%; /* Full width on smaller screens */
+      margin: 10px 0; /* Stack images vertically */
+  }
+}
+
+@media (max-width: 768px) {
+  header .container {
+      flex-wrap: wrap;
+  }
+
+  header nav ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  header nav ul li {
+      margin: 10px 0;
+  }
+
+  .features .card {
+      width: 100%; /* Full width on mobile */
+  }
+
+  .hero {
+      padding: 150px 20px 100px 20px;
+  }
+
+  .hero .hero-content h1 {
+      font-size: 2.5em;
+  }
+
+  .hero .hero-content p {
+      font-size: 1.2em;
+  }
+
+  .hero .cta-button {
+      font-size: 1em;
+      padding: 10px 20px;
+  }
+}

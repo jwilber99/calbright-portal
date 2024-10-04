@@ -1,0 +1,103 @@
+/* EditStudent.css */
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Edit Student Page Styles */
+  .edit-student-page {
+    background-color: #ffffff; /* White main background */
+    min-height: 100vh;
+    padding-top: 80px; /* Offset for fixed header if needed */
+  }
+  
+  .edit-student .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .edit-student h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #002855; /* Dark blue for headings */
+  }
+  
+  /* Form Styles */
+  .edit-student form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .edit-student .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-student .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .edit-student .form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-student .submit-button {
+    padding: 15px;
+    background-color: #f0a500;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-student .submit-button:hover {
+    background-color: #d18a00;
+  }
+  
+  /* Back to Dashboard Button Styles */
+  .back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    background-color: #002855;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #f0a500;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .edit-student .container {
+      padding: 10px;
+    }
+  
+    .edit-student h2 {
+      font-size: 2em;
+    }
+  }
+  

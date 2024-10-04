@@ -1,0 +1,224 @@
+/* StudentData.css */
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+}
+
+/* Student Data Page Styles */
+.student-data-page {
+  background-color: #ffffff; /* White main background */
+  min-height: 100vh;
+  padding-top: 80px; /* Offset for fixed header if needed */
+}
+
+.student-data .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.student-data h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  color: #002855; /* Dark blue for headings */
+}
+
+/* Add Student Button */
+.add-student-button {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.add-student-button .add-button {
+  padding: 10px 20px;
+  background-color: #f0a500;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-student-button .add-button:hover {
+  background-color: #d18a00;
+}
+
+/* Search and Filter Section */
+.search-filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-filter input,
+.search-filter select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-filter button {
+  padding: 10px 20px;
+  background-color: #f0a500;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-filter button:hover {
+  background-color: #d18a00;
+}
+
+/* Student Data Table Styles */
+.student-data table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.student-data table thead {
+  background-color: #f0a500;
+  color: #ffffff;
+}
+
+.student-data table th,
+.student-data table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.student-data table th {
+  cursor: pointer;
+  position: relative;
+}
+
+.student-data table th::after {
+  content: '';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 5px solid transparent;
+}
+
+.student-data table th.ascending::after {
+  border-bottom-color: #ffffff;
+}
+
+.student-data table th.descending::after {
+  border-top-color: #ffffff;
+}
+
+.student-data table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.student-data table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Edit Button Styles */
+.edit-button {
+  padding: 5px 10px;
+  background-color: #002855;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-button:hover {
+  background-color: #f0a500;
+}
+
+/* Pagination Controls */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  background-color: #002855;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #f0a500;
+}
+
+.pagination span {
+  font-size: 1em;
+  color: #002855;
+}
+
+/* Back to Dashboard Button Styles */
+.back-link {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back-button {
+  padding: 10px 20px;
+  background-color: #002855;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #f0a500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .search-filter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-filter input,
+  .search-filter select,
+  .search-filter button {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .student-data table th,
+  .student-data table td {
+    padding: 10px;
+  }
+
+  .add-student-button {
+    text-align: center;
+  }
+}

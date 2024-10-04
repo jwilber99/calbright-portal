@@ -1,0 +1,113 @@
+/* src/components/CreateStudent.css */
+
+/* Container for the Create Student Page */
+.create-student-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #f9f9f9; /* Light background */
+  min-height: 100vh;
+}
+
+/* Heading */
+.create-student-page h2 {
+  margin-bottom: 20px;
+  color: #333333; /* Dark text */
+  font-size: 2rem;
+}
+
+/* Error Message */
+.error {
+  color: #ff4d4f; /* Red color for errors */
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Create Student Form */
+.create-student-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  background-color: #ffffff; /* White background for form */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Labels */
+.create-student-form label {
+  margin-bottom: 10px;
+  color: #555555; /* Medium-dark text */
+  font-weight: 500;
+}
+
+/* Form Inputs and Selects */
+.create-student-form input[type="text"],
+.create-student-form input[type="email"],
+.create-student-form select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc; /* Light gray border */
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.create-student-form input[type="text"]:focus,
+.create-student-form input[type="email"]:focus,
+.create-student-form select:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none;
+}
+
+/* Submit Button */
+.submit-button {
+  padding: 12px 20px;
+  background-color: #007bff; /* Blue background */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Back Button */
+.back-button {
+  padding: 10px 18px;
+  background-color: #6c757d; /* Gray background */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #5a6268; /* Darker gray on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .create-student-form {
+    padding: 20px;
+  }
+
+  .create-student-page h2 {
+    font-size: 1.5rem;
+  }
+
+  .submit-button,
+  .back-button {
+    width: 100%;
+  }
+}
